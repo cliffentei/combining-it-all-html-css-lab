@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header{
+    background-color: grey;
+    color: white;
+    font-family: Arial;
+    margin: 20;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+figure {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+img {
+    height: 800px;
+    width: 500px;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+}
+
+.Lorem {
+    margin-right: 5%;
+}
+
+.Ipsum {
+    margin-right: 60%;
+}
+
+.Cookies {
+    margin-right: 5%;
+}
